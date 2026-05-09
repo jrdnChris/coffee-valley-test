@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background: #ffffff;
+  color: #000;
+}
+
+a {
+  color: #0000cc;
+  text-decoration: underline;
+}
+
+/*Header*/
+.header {
+  padding: 12px 16px 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.header-logo img {
+  width: 55px;
+}
+
+.header-company h1 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 22px;
+  color: #3a1a0a;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.header-company p {
+  font-size: 11px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/*Navbar*/
+.navbar {
+  display: flex;
+  align-items: stretch;
+  margin: auto;
+  width: 70%;
+}
+
+.navbar a,
+.navbar button {
+  display: block;
+  flex: 1;
+  background-color: #7b3020;
+  color: #ffffff;
+  padding: 7px 20px;
+  font-style: italic;
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.navbar a:hover,
+.navbar button:hover {
+  background-color: #5c2218;
+}
+
+/*Page content*/
+.content {
+  padding: 16px 20px;
+}
+
+/*Tables*/
+.data-table {
+  border-collapse: collapse;
+  margin-top: 8px;
+  margin: auto;
+  width: 70%;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.data-table th {
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Forms*/
+.form-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.form-row label {
+  width: 145px;
+  font-size: 13px;
+}
+
+.form-row input[type='text'],
+.form-row input[type='password'],
+.form-row input[type='email'],
+.form-row select {
+  border: 1px solid #999;
+  padding: 2px 4px;
+  font-size: 13px;
+  width: 200px;
+}
+
+.form-row input[type='file'] {
+  font-size: 13px;
+}
+
+.form-row select {
+  width: 210px;
+}
+
+button[type='submit'],
+button {
+  padding: 3px 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/*Login page*/
+.login-page {
+  padding: 20px;
+  margin: auto;
+  width: fit-content;
+}
+
+.login-form .form-row label {
+  width: 80px;
+}
+
+.login-form .form-row input {
+  width: 130px;
+}
+
+/*Links inside content*/
+.edit-link {
+  color: #0000cc;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+.add-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0000cc;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+/*Messages*/
+.error-msg {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.success-msg {
+  color: green;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+/*Footer*/
+.footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 12px;
+  color: #555;
+}
